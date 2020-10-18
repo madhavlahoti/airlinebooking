@@ -1,0 +1,147 @@
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(enq1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.h1,h1{
+	margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size:2.5rem;
+    margin-left: 685px;
+	margin-right: 0;
+  padding-bottom: 0px;
+	font-style: normal;
+    color: #fff;
+}
+.booking-form-box
+{
+	max-width: 350px;
+	border: 1px solid #ced4da;
+	margin: 1% auto 0; 
+	margin-top: 50px;
+	border-radius: 30px;
+}
+.radio-btn
+{
+	margin: 10px 20px;
+}
+.radio-btn .btn
+{
+	margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+	content: '';
+	height: 15px;
+	width: 15px;
+	top: -2px;
+	left: -1px;
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	border: 3px solid #fff;
+	visibility: visible;
+	border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+	content: '';
+	background-color: #000;
+	transition: 0,5s;
+}
+.radio-btn span
+{
+	color: #fff;
+	margin-right: 5px;
+	font-size: 12px;
+}
+.booking-form
+{
+	padding: 0 20px 20px;
+}
+.booking-form label
+{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #fff;
+}
+input::placeholder
+{
+	color: #000 !important;
+}
+.input-grp
+{
+	width: 151px;
+	display: inline-block;
+	color: transparent;
+}
+.input-grp1
+{
+	font-size-adjust: auto;
+	cursor:cell;
+	color: transparent;
+}
+.form-control1{
+	width: 305px;
+	height:200px;
+}
+.form-control
+{
+	font-size: 12px!important;
+	border-radius: 0!important;
+	color: : #fff!im[ortant;
+	background: transparent;
+	box-shadow: none!important;
+	color: transparent;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+	-webkit-appearance: none;
+	margin: 0;
+}
+.select-date::-webkit-calender-picker-indicator
+{
+	background: transparent!important;
+}
+.custom-select
+{
+	color: #fff!important;
+	font-size: 12px!important;
+	border: 1px solid #ced4da!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+	background: transparent!important;
+    margin-top: 10px;
+}
+.custom-select option
+{
+	color: #333;
+}
+.flight
+{
+	margin-top: 10px;
+    width: 100%;
+	padding: 9px 0!important;
+	font-size: 12px!important;
+	border: 1px solid #ced4da!important;
+	background: transparent!important;
+	box-shadow: none!important;
+	border-radius: 0!important;
+}
+.flight:hover
+{
+	background: #fff!important;
+	color: #000!important;
+	transition: 0.5s;
+}
+s
+.btn-primary {
+    margin-top: 10px;
+}

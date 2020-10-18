@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title> Login And Registration Form - Airline Booking</title>
+	<link rel="Stylesheet" href="Style.css">
+	<style> 
+		::webkit
+	</style>
+</head>
+	<body>
+	    <div class="hero">
+			<h1>Airline Login</h1>
+            
+			<div class="form-box"> 
+				<div class="button-box">
+					<div id="btn"></div>
+			    <button type="button"  class="toggle-btn" onclick="login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+				</div>
+				<div class="Social-icons">
+					<img src="twn.png">
+					<img src="gpn.png">
+				</div>
+				<form id="login" action="validation.php"
+                      method="POST"
+                      class="input-group">
+				<input type="text" name="user" class="input-feild" placeholder=" User Id"required>
+				<input type="password" name="password" class="input-feild" placeholder=" Enter Password"required>
+				
+                <input type="checkbox" class="chech-box"><span>Remember Password</span>
+				<button type="submit" class="sumbit-btn">Log in</button>
+			   </form>
+				<div id="scroll">
+                
+				    <form  id="register"
+                          action="prepared.php" method="POST"
+                          class="input-group" style=" overflow: hidden" >
+                    
+				<input id="r1" type="text" name="user" class="input-feild" placeholder="Enter Name "required>
+				<input type="Address" name="address" class="input-feild" placeholder="Enter Address"required>
+				<input type=number name="mob" class="input-feild" pattern="{10,}" placeholder="Mobile Number"required>
+				<input type=email name="email" class="input-feild" placeholder=" Email Id"required>
+				<input type="password" name="password" class="input-feild" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}" title="Must contain at least one number  one uppercase and lowercase letter, and  8 to 20 characters" placeholder=" Enter Password"required>
+				
+				
+                
+                        
+                        <input type="checkbox" class="chech-box"><span>I agree to terms & condition </span>
+                        
+				<button type="submit" class="sumbit-btn">Register</button>
+			         
+                        </form>
+                
+				</div>
+			</div>
+		</div> 
+		<script>
+		    var x = document.getElementById("login");
+			var y = document.getElementById("register");
+			var z = document.getElementById("btn");
+			function register(){
+				x.style.left = "-400px";
+				y.style.left = "50px";
+				z.style.left = "110px";
+			}
+				
+			function login(){
+				x.style.left = "50px";
+				y.style.left = "450px";
+				z.style.left = "0px";
+			}
+									
+		</script>
+		
+    </body>
+	
+</html>
+
+
+<!--action="registration.php" method="POST"-->
